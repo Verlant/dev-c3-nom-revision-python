@@ -1,2 +1,5 @@
 f = open('file.txt', 'r')
-print(f.read())
+string = f.read()
+string = string.split()
+print("Nombre de mots présent dans le fichier file.txt", len(string))
+f = open('file2.txt', 'w')
